@@ -1,0 +1,28 @@
+textedit
+textedit2
+
+init
+  -- say "init"
+  -- say "the module"
+  -- say "for any"
+
+b
+this is b
+  say "b"
+
+a b c
+print abc
+  say "abc"
+  say "def"
+
+a a a
+print aaa
+  say "aaa"
+
+b
+this is another b
+  say "bbbbb"
+
+escape
+ignore
+  say "escape"
