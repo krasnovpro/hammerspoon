@@ -2,6 +2,7 @@
 My hammerspoon scripts
 My scripts for [hammerspoon.org](http://www.hammerspoon.org/)<br>
 Documentation: http://www.hammerspoon.org/docs/index.html<br>
+My [userscript](https://openuserjs.org/src/scripts/krasnovpro/hammerspoon.org_Documentation.user.js#) for documentation<br>
 Download page: https://github.com/Hammerspoon/hammerspoon/releases/latest
 
 ## File structure
