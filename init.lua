@@ -11,6 +11,7 @@ end
 
 say = function(msg, duration, font, size) -- Styled alert
   local style = {
+    atScreenEdge = 0,
     fillColor = {black = 1, alpha = .4},
     strokeColor = {black = 1, alpha = 0},
     textSize = 20,
