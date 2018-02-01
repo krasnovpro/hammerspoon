@@ -89,8 +89,12 @@ keyLayout.eventwatcher2 = hs.eventtap.new({ "all", hs.eventtap.event.types.flags
   return false
 end):start()
 
--- hotkey: cmd-alt-del - lock desktop
+-- hammerspoon (reload and toggle console)
+hs.hotkey.bind({ "shift" }, "escape", nil, function() hs.reload() end)
+hs.hotkey.bind({ "shift", "ctrl" }, "escape", nil, function() hs.toggleConsole() end)
+
+-- cmd-alt-del - lock desktop
 hs.hotkey.bind({ "cmd", "alt" }, "forwarddelete", nil, function() hs.caffeinate.startScreensaver() end)
 
--- applications hotkey module
+-- run applications hotkey module
 key = require "hotkey" key:watch()
