@@ -38,7 +38,7 @@ say("\xEF\x81\x90", nil, "Wingdings 3", 50) -- Message on reload
 -- Hotkeys
 -- -------
 
--- hotkey: lshift/rshift - switch en/ru keyboard layout
+-- lshift/rshift - switch en/ru keyboard layout
 local keyLayout = {
   showPopUp = false,
   leftLayout = "English",
